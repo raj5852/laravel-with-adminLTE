@@ -12,8 +12,8 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
 </head>
-<body>
-    <body class="hold-transition sidebar-mini">
+
+<body class="hold-transition sidebar-mini">
         <div class="wrapper">
             @include('admin.layouts.header')
             @include('admin.layouts.sidebar')
@@ -26,6 +26,6 @@
 <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
 <script src="{{asset('dist/js/adminlte.min.js')}}"></script>
-    </body>
+
 </body>
 </html>
